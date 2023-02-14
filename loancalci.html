@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> FINANCE BLINK </title>
+    <link rel="shortcut icon" type="x-icon"
+        href="images/iteration.png">
+
+    <link rel="stylesheet" type="text/css" href="sty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+       
+    <!---------------------------------------------------NAVBAR-------------------------------------------------->
+    <section id="navigation">
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-bottom ">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-3" href="index.html"><span class="logohead">FINANCE BLINK</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 text-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="aboutus.html">About
+                                    us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="contactus.html">Contact
+                                    US</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    LOANS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="personalloan.html">Personal Loans</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="vehicleloan.html">Vehicle
+                                            Loan</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Loan Against Property</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tools
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="loancalci.html">Loan
+                                            Calculator</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="loancalci.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#rev">Client Reviews</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                        <a href="signup.html">
+                            <button class="wxyz btn-outline-success" type="submit">SIGN UP</button>
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+    <!--------------------------------------LOAN CALCULATOR------------------------------------->
+
+    <section id="loan calculator">
+        <div class="loan-calci">
+            <div class="top">
+                <h2>LOAN CALCULATOR</h2>
+                <form action="#">
+                    <div class="group">
+                        <div class="title">Amount</div>
+                        <input type="text" value="100000" class="loan-amount" />
+                    </div>
+
+                    <div class="group">
+                        <div class="title">Interest Rate</div>
+                        <input type="text" value="0.2" class="interest-rate" />
+                    </div>
+
+                    <div class="group">
+                        <div class="title">Tenure (in months)</div>
+                        <input type="text" value="60" class="loan-tenure" />
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <div class="result">
+                    <div class="left">
+                        <div class="loan-emi">
+                            <h3>Loan EMI</h3>
+                            <div class="value">125</div>
+                        </div>
+
+                        <div class="total-interest">
+                            <h3>Total Interest Payable</h3>
+                            <div class="value">1254</div>
+                        </div>
+
+                        <div class="total-amount">
+                            <h3>Total Amount</h3>
+                            <div class="value">12535</div>
+                        </div>
+                        <button class="calculate-btn">Calculate</button>
+                    </div>
+                    <div class="right">
+                        <img src="images\Lovepik_com-450035660-financial advisor vector.png"
+                            width="290" height="290">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------how to use--------------------------------->
+
+    <section id="howtouse">
+        <div class="container text-center my-5 ">
+            <div>
+                <h1><b>How to use Financial Blink's Loan calculator?</b></h1>
+                <hr / class="w-50 m-auto">
+                <div class="para">
+                    <p>Our EMI Calculator is easy to use, intuitive to understand
+                        and is quick to perform. You can calculate EMI for home loan, car loan,<br> personal loan,
+                        education
+                        loan or any other fully amortizing loan using this calculator.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" xyz data-detail col-lg-10  offset-lg-1  pb-5 mb-5">
+            <p style="text-align: center;"><b>Enter the following information in the EMI Calculator:</b></p>
+            <ul>
+                <li>The loan amount you wish to avail (in rupees)</li>
+                <li>The term of your loan (in months)</li>
+                <li>The rate of interest (in percentage)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!------------------------------frequently asked questions----------------------------> 
+
+    <section id="frequently">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class=" asked text-center text-lg-start"><b>Frequently Asked Questions</b></h2>
+                    <hr>
+                    <p class="mb-0 me-lg-5 pe-lg-5"></p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mt-4 mt-lg-0">
+                            <h2 class="accordion-header" id="headingOne0">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne0" aria-expanded="false" aria-controls="collapseOne0">
+                                    <p class="mb-0 me-3">What is an EMI? </p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne0" class="accordion-collapse collapse" aria-labelledby="headingOne0"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="mb-0">EMI is short for Equated Monthly Instalments. It’s the amount
+                                        payable to the bank/NBFC every month over a predetermined period of time by the
+                                        borrower, as repayment towards a loan. It comprises the interest on the balance
+                                        outstanding as well as a portion of the principal amount borrowed. The interest
+                                        component of the EMI is larger during the initial months, and gradually reduces
+                                        with each subsequent payment. And vice versa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-4 mt-lg-0">
+                            <h2 class="accordion-header" id="headingOne1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                                    <p class="mb-0 me-3">What is a Loan Repayment Schedule? </p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="mb-0">A loan repayment schedule is a table that shows the payments to be
+                                        made every month/year for the entire duration of your loan. It also shows the
+                                        yearly interest and principal components payable. During the initial loan
+                                        period, a large portion of each payment is devoted towards the interest amount.
+                                        And with the passage of time, larger portions of each payment will pay down the
+                                        principal amount. The repayment schedule also shows the intermediate outstanding
+                                        balance for each year that will be carried over to the next.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-4 mt-lg-0">
+                            <h2 class="accordion-header" id="headingOne2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
+                                    <p class="mb-0 me-3">What is Floating Rate EMI Calculation? </p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="mb-0">Floating Rate EMI Calculation takes into consideration two opposite
+                                        scenarios, i.e., optimistic (deflationary) and pessimistic (inflationary)
+                                        scenarios.
+
+                                        Two of the three components required to calculate your EMI are under your
+                                        control. I.e. Car Loan amount and the loan tenure. But the rate of interest is
+                                        decided by the banks/NBFCs based on rates and policies set by RBI. So, as a
+                                        borrower, you should consider the extreme possibilities of increase and decrease
+                                        in the rate of interest and calculate how much would be your EMI under these two
+                                        conditions.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Optimistic (deflationary) scenario:</strong>Assume that the rate of
+                                            interest comes down by 1% - 3% from the present rate. Consider this
+                                            situation and calculate your EMI. In this situation, your EMI will come down
+                                            or you may opt to shorten the loan tenure.</li>
+                                        <li><strong>Pessimistic (inflationary) scenario:</strong> In the same way,
+                                            assume that the rate of interest is hiked by 1% - 3%. Is it possible for you
+                                            to continue to pay the EMI without much struggle?
+                                            Note: Even a 2% increase in rate of interest can result in a significant
+                                            rise in your monthly payment for the entire car loan tenure.
+                                            Such calculations will help you decide how much EMI is affordable, how long
+                                            your loan tenure should be, and how much you should borrow.</li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!--------------------------------------------------FOOTER--------------------------------------------------------->
+    <section id="footer">
+        <img src="images/wave2 (1).png" class="footer-img">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="images/iteration.png" class="img2">
+                </div>
+                <div class="col">
+                    <h4>Contact us</h4>
+                    <p><i class="fa fa-map"></i> Blink Finance
+                        1/249 Scottsdale Dr,<br> Robina QLD 4226, Australia</p>
+                    <p><i class="fa fa-phone"></i> +91 9629130456</p>
+                    <p><i class="fa fa-envelope-o"></i> Blinkfinance@gmail.com</p>
+                </div>
+                <div class="col">
+                    <h4>Find us on social media</h4>
+                    <a href="#"><img src="images/facebook-icon.png" class="img1"></a>
+                    <a href="#"><img src="images/instagram-icon.png" class="img1"></a>
+                    <a href="#"><img src="images/twitter-icon.png" class="img1"></a>
+                </div>
+                <div class="col">
+                    <h4>OTHERS</h4>
+                    <p><a class="sahsbs" href="FAQ.html">FAQ</a></p>
+                    <P><a class="sahsbs" href="privacypolicy.html">Privacy Policy</a></P>
+                    <p><a class="sahsbs" href="loancalci.html">EMI Calculator</a></p>
+                    <P><a class="sahsbs" href="termsandcondition.html">Terms & Condition</a></P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="smoothscroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js"
+        integrity="sha512-qKyIokLnyh6oSnWsc5h21uwMAQtljqMZZT17CIMXuCQNIfFSFF4tJdMOaJHL9fQdJUANid6OB6DRR0zdHrbWAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

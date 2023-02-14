@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FINANCE BLINK </title>
+    <link rel="shortcut icon" type="x-icon"
+    href="images/iteration.png">
+
+
+    <link rel="stylesheet" type="text/css" href="vehloan.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+    <!---------------------------------------------------NAVBAR-------------------------------------------------->
+ <section id="navigation">
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 border-bottom ">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-3" href="index.html"><span class="logohead">FINANCE BLINK</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 text-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="aboutus.html">About
+                                    us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="contactus.html">Contact
+                                    US</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    LOANS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="personalloan.html">Personal Loans</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="vehicleloan.html">Vehicle
+                                            Loan</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Loan Against Property</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tools
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="loancalci.html">Loan
+                                            Calculator</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="loancalci.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#rev">Client Reviews</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                        <a href="signup.html">
+                            <button class="wxyz btn-outline-success" type="submit">SIGN UP</button>
+                        </a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+
+<!--------------------------vehicle loan--------------->
+ <section>
+    <div class="container">
+        <div class="title"><b>Car Loan Application Form</b></div>
+        <div class="content">
+            <form action="#">
+                <br>
+                <h2>Personal Details</h2>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Name</span>
+                        <input type="text" placeholder="Enter yourfirst name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Name</span>
+                        <input type="text" placeholder="Enter your last" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date Of Birth</span>
+                        <input type="date" placeholder="Confirm your password" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+                </div>
+                <h2>Current Address</h2>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Street Address</span>
+                        <input type="text" placeholder="Line 1" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Street Address</span>
+                        <input type="text" placeholder="line 2" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">city</span>
+                        <input type="text" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">State / province</span>
+                        <input type="text" placeholder="line 2" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Social Security Number</span>
+                        <input type="text" placeholder="e.g ., 23" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Driver's License NUMBER</span>
+                        <input type="text" placeholder="e.g ., 23" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                        <!-------------------------------------------->
+                    </div>
+                    <br>
+                    <h2>Financial Details</h2>
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Current Bank Name</span>
+                            <input type="text" placeholder="" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Branch</span>
+                            <input type="text" placeholder="" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Account Number</span>
+                            <input type="text" placeholder="e.g.,23" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Monthly Net Income</span>
+                            <input type="text" placeholder="e.g.,23" required>
+
+                            <!---------------------------------------------------------->
+                        </div>
+                        <br>
+                        <h2>Requested Loan Details</h2>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Loan Type</span>
+                                <input type="text" placeholder="Used cor or New car" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Loan amout</span>
+                                <input type="text" placeholder="e.g.,23" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Account Number</span>
+                                <input type="text" placeholder="e.g.,23" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Terms</span>
+                                <input type="text" placeholder="1 year/2 year/3 year" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Preferred payments</span>
+                                <input type="text" placeholder="monthly/yearly/other" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Do you have a co-signer</span>
+                                <input type="text" placeholder="YES /NO" required>
+                            </div>
+                        </div>
+                        <p> Permission to Obtain Consumer Credit Report
+                            By signing this application form, I hereby give the right to obtain a consumer credit report
+                            regarding me for this application and the car loan should my application be approved. I also
+                            release from all liability all persons, companies, and corporations supplying such
+                            information. I the indemnify "Blink finance Bank" the against any liability that might
+                            result from making such an investigation.</p>
+
+
+                        <p> I certify that the information above is correct to the best of my knowledge. I authorize
+                            "blink finance Bank" to make inquiries as necessary to verify the accuracy of the statements
+                            made by me and to determine my creditworthiness. I agree to pay the required sums and I
+                            agree to be bound by the loan agreement if my application is accepted.</p>
+                        <div class="button">
+                            <input type="submit" value="Register">
+                        </div>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+    
+<!--------------------------------------------------FOOTER--------------------------------------------------------->
+    <section id="footer">
+        <img src="images/wave2 (1).png" class="footer-img">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="images/iteration.png" class="img2">
+                </div>
+                <div class="col">
+                    <h4>Contact us</h4>
+                    <p><i class="fa fa-map"></i> Blink Finance
+                        1/249 Scottsdale Dr,<br> Robina QLD 4226, Australia</p>
+                    <p><i class="fa fa-phone"></i> +91 9629130456</p>
+                    <p><i class="fa fa-envelope-o"></i> Blinkfinance@gmail.com</p>
+                </div>
+                <div class="col">
+                    <h4>Find us on social media</h4>
+                    <a href="#"><img src="images/facebook-icon.png" class="img1"></a>
+                    <a href="#"><img src="images/instagram-icon.png" class="img1"></a>
+                    <a href="#"><img src="images/twitter-icon.png" class="img1"></a>
+                </div>
+                <div class="col">
+                    <h4>OTHERS</h4>
+                    <p><a class="sahsbs" href="FAQ.html">FAQ</a></p>
+                    <P><a class="sahsbs" href="privacypolicy.html">Privacy Policy</a></P>
+                    <p><a class="sahsbs" href="loancalci.html">EMI Calculator</a></p>
+                    <P><a class="sahsbs" href="termsandcondition.html">Terms & Condition</a></P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="smoothscroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script defer src="reviews.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.min.js"
+        integrity="sha512-qKyIokLnyh6oSnWsc5h21uwMAQtljqMZZT17CIMXuCQNIfFSFF4tJdMOaJHL9fQdJUANid6OB6DRR0zdHrbWAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

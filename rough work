@@ -1,0 +1,368 @@
+
+//pie chart
+
+const displayChart = (totalInterestPayableValue, totalAmountValue) => {
+    const ctx = document.getElementById('myChart');
+
+    myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Total Interest', 'Principal Loan Amount'],
+            datasets: [{
+                data: [totalInterestPayableValue, totalAmountValue],
+                backgroundColor: ["#3b71e5", "#07286f"],
+                borderWidth: 0,
+            }]
+        },
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="data-detail col-lg-10  offset-lg-1  pb-5 mb-5">
+				<p style="text-align: center;"><strong>All you need to do is enter the following information in the EMI Calculator:</strong></p>
+<ul>
+<li>The loan amount you wish to avail (in rupees)</li>
+<li>The term of your loan (in months or years)</li>
+<li>The rate of interest (in percentage)</li>
+</ul>
+<p>Use the slider to adjust the values in the EMI Calculator form or enter the values directly in their relevant boxes. Andromeda’s EMI Calculator will re-calculate your EMI accordingly, and present the information in a pie chart depicting the break-up of your total payment. i.e. Total Principal Payable vs. Total Interest Payable.</p>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="container">
+                <div class="row px-3">
+                    <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+                        <div class="img-left d-none d-md-flex">
+                            <img src="C:\Users\Admin\OneDrive\Desktop\Web LNGS\Loan Website\images\—Pngtree—information statistics computer finance_4655939.png">
+                        </div>
+    
+                        <div class="card-body">
+                            <h4 class="title text-center mt-4">
+                                Login into account
+                            </h4>
+                            <form class="form-box px-3">
+                                <div class="form-input">
+                                    <span><i class="fa fa-envelope-o"></i></span>
+                                    <input type="email" name="" placeholder="Email Address" tabindex="10" required>
+                                </div>
+                                <div class="form-input">
+                                    <span><i class="fa fa-key"></i></span>
+                                    <input type="password" name="" placeholder="Password"  required>
+                                </div>
+    
+                            <div class="mb-3">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="cb1" name="">
+                                    <label class="custom-control-label" for="cb1">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-block text-uppercase">
+                                    Login
+                                </button>
+                            </div>
+                            <div class="text-right">
+                                <a href="" class="forget-link">
+                                    Forger Password
+                                </a>
+                            </div>
+                            <div class="text-center mb-3">
+                                or login with
+                            </div>
+    
+                            <div class="row mb-3">
+                                <div class="col-4">
+                                    <a href="#" class="btn btn-block btn-social btn-facebook">
+                                        facebook
+                                    </a>
+                                </div>
+    
+                                <div class="col-4">
+                                    <a href="#" class="btn btn-block btn-social btn-google">
+                                        google
+                                    </a>
+                                </div>
+    
+                                <div class="col-4">
+                                    <a href="#" class="btn btn-block btn-social btn-twitter">
+                                        twitter
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <hr class="my-4">
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <img src="images/wave2 (1).png" class="footer-img">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="images/png1.png" class="img2">
+                                    </div>
+                                    <div class="col">
+                                        <h4>Contact us</h4>
+                                        <p><i class="fa fa-map"></i> Blink Finance
+                                            1/249 Scottsdale Dr, Robina QLD 4226, Australia</p>
+                                        <p><i class="fa fa-phone"></i> +91 9629130456</p>
+                                        <p><i class="fa fa-envelope-o"></i> Blinkfinance@gmail.com</p>
+                                    </div>
+                                    <div class="col">
+                                        <h4>Find us on social media</h4>
+                                        <a href="#"><img src="images/facebook-icon.png"
+                                                class="img1"></a>
+                                        <a href="#"><img src="images/instagram-icon.png"
+                                                class="img1"></a>
+                                        <a href="#"><img src="images/twitter-icon.png"
+                                                class="img1"></a>
+                                    </div>
+                                    <div class="col">
+                                        <h4>OTHERS</h4>
+                                        <p>Disclaimer</p>
+                                        <P>Privacy policy</P>
+                                        <p>EMI Calculator</p>
+                                        <P>DO's & DON'Ts</P>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            
+          <!------------------------banks who trusts us------------------------------->
+
+
+    <section id="banks">
+        <div class="container text-center mt-5 mb-5">
+            <h1><b><span>BANKS WHO BELIEVE IN US!!</span></b></h1>
+            <hr / class="w-50 m-auto">
+            <p class="para">We are among the top most 5 campanies which are preffered for banking,loaning and bank
+                related stuff.</p>
+        </div>
+    </section>
+    <section id="brands">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="images/images1/SBI-Logo-1970.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo2.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo3.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo4.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo6.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo7.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo8.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo9.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo10.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo11.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo12.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo13.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo14.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo15.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo5.png" alt="Avatar">
+                </div>
+                <div class="col">
+                    <img src="images/images1/banklogo16.png" alt="Avatar">
+                </div>
+            </div>
+            <div id="load-more">LOAD MORE</div>
+
+        </div>
+        <script>
+            let loadMoreBtn = document.querySelector('#load-more');
+            let currentItem = 4;
+
+            loadMoreBtn.onclick = () => {
+                let boxes = [...document.querySelectorAll('.container .row .col')];
+                for (var i = currentItem; i < currentItem + 4; i++) {
+                    boxes[i].style.display = 'inline-block'
+                }
+                currentItem += 4;
+
+                if (currentItem >= boxes.length) {
+                    loadMoreBtn.style.display = 'none';
+                }
+            }
+        </script>
+    </section>                     
+                            
+
+
+    <div class="back" id="home">
+        <h1 class="hero-text"><b>QUICK PERSONAL LOANS</b></h1>
+        <h2 class="hero-text1"><b>starting at 10.99% p.a.</b></h2>
+        <a href="" class="header-btn">
+            <button class="main-btn" type="submit">Apply now</button>
+        </a>
+    </div>
+
+
+    <section id="pricing" class="pricing">
+        <div class="container-xs"></div>
+        
+           
+            <div class="row">
+                <h1 class="sghasjhha my-5"><b>QUICK PERSONAL LOANS</b></h1>
+            <div class="basic">
+                <div class="b-head">
+                    <h3>basic</h3>
+                </div>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> shyuaba bagsbajhsbnsaljsnasljas</p> 
+
+            <button class="hsbshddb my-2" type="submit">Submit</button>
+            </div>
+            <div class="basic">
+                <div class="b-head">
+                    <h3>basic</h3>
+                </div>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> shyuaba bagsbajhsbnsaljsnasljas</p> 
+
+            <button class="hsbshddb my-2" type="submit">Submit</button>
+            </div>
+            <div class="basic">
+                <div class="b-head">
+                    <h3>basic</h3>
+                </div>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>shyuaba bagsbajhsbnsaljsnasljas</p>
+             <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> shyuaba bagsbajhsbnsaljsnasljas</p> 
+
+            <button class="hsbshddb my-2" type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="hero-text"><b>QUICK PERSONAL LOANS</b></h1>
+        <h2 class="hero-text1"><b>starting at 10.99% p.a.</b></h2>
+        <a href="" class="header-btn">
+            <button class="main-btn" type="submit">Apply now</button>
+        </a>
+
+
+    </section>
+
+    document.querySelector("#show-login").addEventListener("click",function(){
+        document.querySelector(".popUp").classList.add("active");
+    });
+    document.querySelector(".popUp .close-btn").addEventListener("click",function(){
+        document.querySelector(".popUp").classList.remove("active");
+    });
+
+
+
+
+
+
+
+     <!--------------------------------------------------------------------------------------->
+
+     <section id="baby my-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 mx-auto pe-5 text-end">
+                <img src="images/pics.png" class="img-fluid hadhdhkjd">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 mx-auto">
+                <h1 class="dhasdgjhd"><b>How does BLINK FINANCE<br> work?</b></h1>
+                <p class="p-1"><b> Simple, & hassle-free</b><br><b> Personal Loan</b></p>
+                <div class="d-grid gap-2 d-md-block my-5">
+                    <button class="btn" style="background-color: #b219dc;" type="button"><b>AVAIL TODAY</b></button>
+                </div>
+
+            </div>
+        </div>
+        <style>
+            #baby{
+                padding: 0px 0px;
+            }
+            .hadhdhkjd {
+                width: 500px;
+                margin-top: 80px;
+                margin-bottom: 60px;
+            }
+
+            .dhasdgjhd{
+                margin-top: 80px;
+            }
+        </style>
+    </section>
